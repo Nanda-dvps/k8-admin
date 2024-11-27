@@ -4,13 +4,13 @@ data:
     - groups:
       - system:bootstrappers
       - system:nodes
-      rolearn: arn:aws:iam::315069654700:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-s5iLLwbCscFS
+      rolearn: arn:aws:iam::034362035671:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-s5iLLwbCscFS
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
       - expense-trainee
       userarn: arn:aws:iam::034362035671:user/nandu
-      username: nandu
+      username: suresh
 kind: ConfigMap
 metadata:
   creationTimestamp: "2024-11-06T02:05:11Z"
